@@ -1,0 +1,44 @@
+.todoRoot {
+  border: 1px solid gray;
+  width: 500px;
+  margin: 10px auto;
+  box-shadow: 5px 5px 5px #ddd;
+  padding: 30px;
+}
+.todoRoot h1 {
+  margin: 0 0 20px 0;
+}
+.add {
+  padding: 6px;
+  width: 220px;
+}
+.todoRoot button {
+  margin-left: 5px;
+  padding: 3px 10px;
+  height: 30px;
+}
+.todoRoot table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+.todoRoot td {
+  border: 1px solid gray;
+  padding: 6px;
+}
+.todoRoot thead {
+  background-color: #eee;
+}
+
+.checkbox-checked {
+  background-color: rgb(189, 188, 188);
+  text-decoration: line-through;
+  color: gray;
+}
+.todoRoot input[type="checkbox"] {
+  margin-right: 10px;
+  accent-color: gray;
+}
+.button {
+  width: 50px;
+}
